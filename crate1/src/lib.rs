@@ -8,7 +8,7 @@ impl Trait1 for Struct1{}
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::Struct1;
     use crate2::Enum1;    
 
     #[test]
